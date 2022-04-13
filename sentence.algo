@@ -1,0 +1,22 @@
+ALGORITHM sentence
+VAR
+c:CHAR:="";
+str:string:="";
+len:integer:=0;
+voy:integer:=0;
+word:integer:=0 ;
+BEGIN
+WHILE (c<>".") DO
+write("donner un caractère")
+read(c)
+str:=str+c
+len:=len+1
+IF (c="a" or c="A" or c="e" or c="E"or c="o" or c="O" or c="u" or c="U"or c="y" or c="Y" or c="i"c="I") THEN
+    voy:=voy+1;
+END_IF
+IF (c=" ") THEN
+    word:=word+1
+END_IF
+END_WHILE
+write("la longeur de phrase est ",str,le nbre de voy est",voy,"le nbre de mots est",word)
+END
