@@ -18,5 +18,5 @@ IF (c=" ") THEN
     word:=word+1
 END_IF
 END_WHILE
-write("la longeur de phrase est ",str,le nbre de voy est",voy,"le nbre de mots est",word)
+write("la longeur de phrase est ",len,le nbre de voy est",voy,"le nbre de mots est",word+1)
 END
